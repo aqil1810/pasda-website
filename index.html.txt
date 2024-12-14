@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASDA Malaysia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0066cc;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 900px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #003366;
+            color: #fff;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PASDA Malaysia</h1>
+        <p>CEKAL | PRIHATIN | SETIA</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#structure">Organization</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+        <a href="#signup">Sign Up</a>
+        <a href="#login">Log In</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Welcome to the Malaysian Emergency Disaster Squad</h2>
+        <p>Your trusted partner in disaster preparedness and relief.</p>
+    </div>
+
+    <section id="about">
+        <h3 class="section-title">About Us</h3>
+        <p>PASDA Malaysia, also known as the Malaysian Emergency Disaster Squad Organization, is dedicated to equipping communities with knowledge and readiness to face disasters and emergencies. Established with the support of experienced veterans, PASDA works to foster a resilient society.</p>
+    </section>
+
+    <section id="structure">
+        <h3 class="section-title">Organizational Structure</h3>
+        <p>Our leadership comprises:</p>
+        <ul>
+            <li><strong>Chairman:</strong> Zaisham Hj Mohamed</li>
+            <li><strong>Deputy Chairman:</strong> Zanurin Bin Che Mud</li>
+            <li>State and national-level leadership to ensure effective disaster management.</li>
+        </ul>
+    </section>
+
+    <section id="programs">
+        <h3 class="section-title">Our Programs</h3>
+        <p>PASDA Malaysia offers various programs, including:</p>
+        <ul>
+            <li>Disaster preparedness and training sessions.</li>
+            <li>Support for government agencies during emergencies.</li>
+            <li>Community outreach and welfare services.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h3 class="section-title">Contact Us</h3>
+        <p>Headquarters: Kg Kubang Nibong, Beris Kubur Besar, Bachok</p>
+        <p>Email: <a href="mailto:contact@pasdamalaysia.org">contact@pasdamalaysia.org</a></p>
+        <p>Phone: +60 123-456-789</p>
+    </section>
+
+    <section id="signup">
+        <h3 class="section-title">Sign Up</h3>
+        <form action="/signup" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <section id="login">
+        <h3 class="section-title">Log In</h3>
+        <form action="/login" method="post">
+            <label for="email-login">Email:</label>
+            <input type="email" id="email-login" name="email" required><br><br>
+            <label for="password-login">Password:</label>
+            <input type="password" id="password-login" name="password" required><br><br>
+            <button type="submit">Log In</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PASDA Malaysia | All Rights Reserved | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+
+</html>
